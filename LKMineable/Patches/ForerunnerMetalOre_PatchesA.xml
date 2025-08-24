@@ -15,7 +15,7 @@
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/GenStepDef[defName="PreciousLump"]/genStep/mineables</xpath>
 	<value>
-		<li>LKForerunner_Metal</li>
+		<li>LKForerunner_MetaloreA</li>
 	</value>
 </Operation>
 
@@ -36,3 +36,4 @@
 </Operation>
 
 </Patch>
+
