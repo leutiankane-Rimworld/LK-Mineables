@@ -10,7 +10,7 @@
 	<xpath>Defs/GenStepDef[defName="Asteroid"]/genStep/mineableCounts</xpath>
     <value>   
     <LKForerunner_MetaloreA>40~45</LKForerunner_MetaloreA>
-    <LKUberSteelA>40~45</LKUberSteelA>
+    <LKUberSteeloreA>40~45</LKUberSteeloreA>
     </value>
 	</match>
 </Operation>
@@ -22,7 +22,7 @@
 	<xpath>Defs/GenStepDef[defName="Asteroid_NoRuins"]/genStep/mineableCounts</xpath>
     <value>
     <LKForerunner_MetaloreA>40~45</LKForerunner_MetaloreA>
-    <LKUberSteelA>40~45</LKUberSteelA>
+    <LKUberSteeloreA>40~45</LKUberSteeloreA>
     </value>
 	</match>
 </Operation>
@@ -30,3 +30,4 @@
 
 
 </Patch>
+
