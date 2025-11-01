@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Adds to asteroids -->
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Odyssey</li>
+	</mods>
+<match Class="PatchOperationAdd">
+	<xpath>Defs/GenStepDef[defName="Asteroid"]/genStep/mineableCounts</xpath>
+    <value>   
+    <LKForerunner_MetaloreA>40~45</LKForerunner_MetaloreA>
+    <LKUberSteeloreA>40~45</LKUberSteeloreA>
+    </value>
+	</match>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Odyssey</li>
+	</mods>
+<match Class="PatchOperationAdd">
+	<xpath>Defs/GenStepDef[defName="Asteroid_NoRuins"]/genStep/mineableCounts</xpath>
+    <value>
+    <LKForerunner_MetaloreA>40~45</LKForerunner_MetaloreA>
+    <LKUberSteeloreA>40~45</LKUberSteeloreA>
+    </value>
+	</match>
+</Operation>
+
+
+
+</Patch>
